@@ -349,7 +349,7 @@ if ($P0Name -eq 'Advisories') {
         PivotData               = @{"Category" = "Count" }
         PivotTableStyle         = $tableStyle
         IncludePivotChart       = $true
-        ChartType               = "BarStacked3D"
+        ChartType               = "BarStacked"
         ChartRow                = 13 # place the chart below row 22nd
         ChartColumn             = 2
         Activate                = $true
@@ -372,7 +372,7 @@ else {
         PivotData               = @{"Use" = "Count" }
         PivotTableStyle         = $tableStyle
         IncludePivotChart       = $true
-        ChartType               = "BarStacked3D"
+        ChartType               = "BarStacked"
         ChartRow                = 13 # place the chart below row 22nd
         ChartColumn             = 2
         Activate                = $true
@@ -421,7 +421,7 @@ if ($P2Name -eq 'Security Center') {
         PivotData               = @{"Resource Name" = "Count" }
         PivotTableStyle         = $tableStyle
         IncludePivotChart       = $true
-        ChartType               = "ColumnStacked3D"
+        ChartType               = "ColumnStacked"
         ChartRow                = 21 # place the chart below row 22nd
         ChartColumn             = 11
         Activate                = $true
@@ -445,7 +445,7 @@ elseif ($P2Name -eq 'Annual Savings') {
         PivotData               = @{"Annual Savings" = "Sum" }
         PivotTableStyle         = $tableStyle
         IncludePivotChart       = $true
-        ChartType               = "ColumnStacked3D"
+        ChartType               = "ColumnStacked"
         ChartRow                = 21 # place the chart below row 22nd
         ChartColumn             = 11
         Activate                = $true
@@ -470,7 +470,7 @@ else {
         PivotData               = @{"Location" = "Count" }
         PivotTableStyle         = $tableStyle
         IncludePivotChart       = $true
-        ChartType               = "ColumnStacked3D"
+        ChartType               = "ColumnStacked"
         ChartRow                = 21 # place the chart below row 22nd
         ChartColumn             = 11
         Activate                = $true
@@ -496,7 +496,7 @@ if ($P3Name -eq 'Azure Kubernetes') {
         PivotData               = @{"Clusters" = "Count" }
         PivotTableStyle         = $tableStyle
         IncludePivotChart       = $true
-        ChartType               = "Pie3D"
+        ChartType               = "Pie"
         ChartRow                = 34 # place the chart below row 22nd
         ChartColumn             = 11
         Activate                = $true
@@ -520,7 +520,7 @@ else {
         PivotData               = @{"Tier" = "Count" }
         PivotTableStyle         = $tableStyle
         IncludePivotChart       = $true
-        ChartType               = "Pie3D"
+        ChartType               = "Pie"
         ChartRow                = 34 # place the chart below row 22nd
         ChartColumn             = 11
         Activate                = $true
@@ -547,7 +547,7 @@ if ($P4Name -eq 'Quota Usage') {
         PivotData               = @{"vCPUs Available" = "Sum" }
         PivotTableStyle         = $tableStyle
         IncludePivotChart       = $true
-        ChartType               = "ColumnStacked3D"
+        ChartType               = "ColumnStacked"
         ChartRow                = 47 # place the chart below row 22nd
         ChartColumn             = 11
         Activate                = $true
@@ -571,7 +571,7 @@ else {
         PivotData               = @{"Disk State" = "Count" }
         PivotTableStyle         = $tableStyle
         IncludePivotChart       = $true
-        ChartType               = "ColumnStacked3D"
+        ChartType               = "ColumnStacked"
         ChartRow                = 47 # place the chart below row 22nd
         ChartColumn             = 11
         Activate                = $true
@@ -623,7 +623,7 @@ $PTParams = @{
     PivotData               = @{"Resources" = "sum" }
     PivotTableStyle         = $tableStyle
     IncludePivotChart       = $true
-    ChartType               = "ColumnStacked3D"
+    ChartType               = "ColumnStacked"
     ChartRow                = 1 # place the chart below row 22nd
     ChartColumn             = 24
     Activate                = $true
@@ -649,7 +649,7 @@ if ($P7Name -eq 'Virtual Machines') {
         PivotData               = @{"Resource U" = "Sum" }
         PivotTableStyle         = $tableStyle
         IncludePivotChart       = $true
-        ChartType               = "Pie3D"
+        ChartType               = "Pie"
         ChartRow                = 21 # place the chart below row 22nd
         ChartColumn             = 24
         Activate                = $true
@@ -675,7 +675,7 @@ if ($P8Name -eq 'Advisories') {
         PivotData               = @{"Impact" = "Count" }
         PivotTableStyle         = $tableStyle
         IncludePivotChart       = $true
-        ChartType               = "BarStacked3D"
+        ChartType               = "BarStacked"
         ChartRow                = 34
         ChartColumn             = 24
         Activate                = $true
@@ -699,7 +699,7 @@ if ($P9Name -eq 'Virtual Machines') {
         PivotData               = @{"Resource U" = "Sum" }
         PivotTableStyle         = $tableStyle
         IncludePivotChart       = $true
-        ChartType               = "Pie3D"
+        ChartType               = "Pie"
         ChartRow                = 47 
         ChartColumn             = 24
         Activate                = $true
